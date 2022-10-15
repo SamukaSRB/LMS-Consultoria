@@ -33,7 +33,7 @@ function ServicesExperience() {
               <i className={`fas ${service.icon}`} />
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
-              <button className="btn">Know More</button>
+              {/* <button className="btn">Know More</button> */}
             </div>
           ))}
         </div>
