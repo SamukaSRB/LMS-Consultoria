@@ -3,7 +3,7 @@ import React from "react";
 
 function Banner() {
   return (
-    <section className="banner" id="banner">
+    <section className="banner" id="sobre">
       <div className="container">
         <div className="banner-wrapper">
           <div className="banner-img">

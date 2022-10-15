@@ -25,13 +25,13 @@ function Header() {
       <div className="header-inner">
         <span className="logo">LMS-Consultoria.</span>
         <div className="links">
-          <a className="link" href="#banner">
+          <a className="link" href="#">
             Home
           </a>
           <a className="link" href="#services">
             Serviços
           </a>
-          <a className="link" href="#informacoes">
+          <a className="link" href="#banner">
             Informações
           </a>
           <a className="link" href="#vagas">
