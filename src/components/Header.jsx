@@ -27,13 +27,13 @@ function Header() {
         <div className="links">
           <a className="link" href="#">
             Home
-          </a>
-          <a className="link" href="#services">
+          </a>         
+          <a className="link" href="#servicos">
             Serviços
-          </a>
-          <a className="link" href="#banner">
-            Informações
-          </a>
+          </a> 
+          <a className="link" href="#dicas">
+            Dicas
+          </a>         
           <a className="link" href="#vagas">
            Vagas
           </a>

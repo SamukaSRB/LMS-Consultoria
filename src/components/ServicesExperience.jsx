@@ -24,7 +24,7 @@ function ServicesExperience() {
   return (
     <section className="services-experience">
       <div className="container">
-        <div className="services" id="services">
+        <div className="services" id="dicas">
           {services.map((service, i) => (
             <div
               key={i}
@@ -38,10 +38,10 @@ function ServicesExperience() {
           ))}
         </div>
       
-        {/* <div className="experiences" id="experiences">
+        <div className="experiences" id="servicos">
           <div className="experience">
             <h3>12</h3>
-            <p>Year Experience</p>
+            <p>Serviços</p>
           </div>
           <div className="portfolios">
             <div className="portfolio">
@@ -50,18 +50,18 @@ function ServicesExperience() {
             </div>
             <div className="portfolio">
               <h4>08</h4>
-              <p>Years Experience</p>
+              <p>Empresas</p>
             </div>
             <div className="portfolio">
               <h4>122+</h4>
-              <p>Completed Projects</p>
+              <p>Projetos</p>
             </div>
             <div className="portfolio">
               <h4>10</h4>
-              <p>Achievements</p>
+              <p>Pessoas</p>
             </div>
           </div>
-        </div> */}
+        </div> 
       </div>
     </section>
   );
