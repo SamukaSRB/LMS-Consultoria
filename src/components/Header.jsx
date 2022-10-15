@@ -31,11 +31,14 @@ function Header() {
           <a className="link" href="#services">
             Serviços
           </a>
-          <a className="link" href="#experiences">
-            Experience
+          <a className="link" href="#informacoes">
+            Informações
           </a>
           <a className="link" href="#vagas">
            Vagas
+          </a>
+          <a className="link" href="#sobre">
+           Sobre
           </a>
         </div>
         <span className="menu" onClick={() => setActive(!active)}>
