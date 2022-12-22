@@ -23,7 +23,7 @@ function Header() {
   return (
     <header className={`${stickyClass}`}>
       <div className="header-inner">
-        <span className="logo">LMS-Consultoria.</span>
+        <span className="logo">LM-Consultoria.</span>
         <div className="links">
           <a className="link" href="#">
             Home
