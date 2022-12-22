@@ -7,12 +7,12 @@ function Banner() {
       <div className="container">
         <div className="banner-wrapper">
           <div className="banner-img">
-            <img src="/person.png" alt="" />
+            <img src="/banner.png" alt="" />
           </div>
           <div className="banner-content">
             <h6>Olá, Seja bem vindo.</h6>
             <h3>Sua consultoria de RH </h3>
-            <p>LMS-Consultoria RH é uma empresa especializada em soluções de gestão de RH.</p>
+            <p>LM-Consultoria RH é uma empresa especializada em soluções de gestão de RH.</p>
             <p>Atua nos segmentos de Recrutamento e Seleção, Gestão de Pessoal,Desenvolvimento de Talentos, Orientação e Treinamento, Saúde e Segurança no Trabalho.</p>
             <a className="btn" href="#vagas">
               Sobre

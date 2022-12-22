@@ -22,8 +22,13 @@ function Header() {
 
   return (
     <header className={`${stickyClass}`}>
-      <div className="header-inner">
-        <span className="logo">LM-Consultoria.</span>
+      <div className="header-inner">   
+      <div className="header-img">
+            <img src="/banner.png" alt="" />
+          </div> 
+        <span className="logo"></span>     
+            
+         
         <div className="links">
           <a className="link" href="#">
             Home

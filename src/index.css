@@ -8,7 +8,7 @@
   text-decoration: none;
 }
 :root {
-  --red: #0174DF;
+  --red: #111;
   --red-dark: #0B173B;
   --red-text: #0040FF;
   --orange:#FF8000;
@@ -16,6 +16,7 @@
   --dark-light: #181818;
   --dark: #111;
   --light: #ffffff;
+  --green: #298A08;
 }
 html {
   scroll-behavior: smooth;
@@ -63,11 +64,19 @@ header .header-inner {
   align-items: center;
   height: 100%;
 }
-.header-inner .logo {
-  font-size: 30px;
-  line-height: 40px;
-  color: var(--orange-text);
-  font-weight: 900;
+
+/* .banner .banner-img {
+  position: relative;
+  flex: 0 10% 50%;
+  max-width: 50%;
+  width: 70%;
+} */
+.header-img img {
+  margin-top: 30px;
+  position: relative;
+  max-width: 50%;
+  width: 78%;
+ 
 }
 .header-inner .link {
   margin-right: 30px;
@@ -85,6 +94,11 @@ header .menu {
 }
 header .mobile-links {
   display: none;
+}
+.logo-img{
+ width: 80px;
+ height: 90px;
+
 }
 
 /* =========== Banner */
@@ -132,7 +146,7 @@ header .mobile-links {
   background: linear-gradient(
     to right,
     var(--light) 0%,
-    var(--light) 21%,
+    var(--light) 21%,ed-dark
     var(--orange) 100%
   );
   border: 1px solid var(--orange);
@@ -172,10 +186,11 @@ header .mobile-links {
   flex: 0 0 calc(33.33% - 10px);
   max-width: calc(33.33% - 10px);
   width: 100%;
-  background: #1e1e1e;
+  background:#FE9A2E;
   padding: 50px;
   transition: 0.3s;
 }
+
 .service i {
   margin-bottom: 10px;
   font-size: 40px;
@@ -289,9 +304,9 @@ header .mobile-links {
   height: 50px;
   background: linear-gradient(
     to right,
-    var(--red-dark) 0%,
-    var(--red-dark) 21%,
-    var(--red) 100%
+    var(--orange) 0%,
+    var(--orange) 21%,
+    var(--orange-text) 100%
   );
   text-transform: uppercase;
   border: 1px solid var(--red-dark);
@@ -339,8 +354,8 @@ header .mobile-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--red-dark);
-  border-top: 2px solid var(--red-dark);
+  border-bottom: 2px solid var(--orange);
+  border-top: 2px solid var(--orange);
   padding: 15px 0px;
 }
 .vagas .description h4 {
@@ -363,7 +378,7 @@ header .mobile-links {
 }
 
 footer {
-  background: var(--dark-light);
+  background: var(--orange);
 }
 footer .container {
   display: flex;
@@ -382,7 +397,7 @@ footer p {
 footer .logo {
   font-size: 30px;
   line-height: 40px;
-  color: var(--red-text);
+  color: var(--dark);
   font-weight: 900;
 }
 footer .links {
@@ -400,7 +415,7 @@ footer p {
   transition: 0.3s;
 }
 footer a:hover {
-  color: var(--red-text);
+  color: var(--orange-text);
 }
 footer p {
   display: flex;
@@ -409,7 +424,7 @@ footer p {
 }
 footer p i {
   margin-right: 15px;
-  color: var(--red-text);
+  color: var(--orange-text);
   font-size: 20px;
   line-height: 30px;
 }
