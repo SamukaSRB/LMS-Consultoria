@@ -14,7 +14,7 @@
   --orange:#FF8000;
   --orange-text: #FF8000;
   --dark-light: #181818;
-  --dark: #111;
+  --dark: #F3E2A9;
   --light: #ffffff;
   --green: #298A08;
 }
@@ -159,7 +159,7 @@ header .mobile-links {
   height: 100%;
   top: 0;
   bottom: 0;
-  background: var(--orange);
+  background: var(--dark);
   width: 50%;
   z-index: -1;
 }
@@ -257,14 +257,14 @@ header .mobile-links {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #1e1e1e;
+  background: var(--orange);
   margin-bottom: 20px;
   height: 150px;
 }
 .portfolio h4 {
   font-size: 30px;
   line-height: 40px;
-  color: var(--red-text);
+  color: var(--dark);
   font-weight: 900;
 }
 .portfolio p {
@@ -302,7 +302,7 @@ header .mobile-links {
   text-transform: uppercase;
   border: 1px solid var(--red-dark);
   font-weight: 600;
-  color: #fff;
+  color: #111;
 }
 
 .vagas .btn-info .btn:hover {
@@ -327,7 +327,7 @@ header .mobile-links {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1e1e;
+  background-color: var(--orange);
   padding: 60px 0px;
   overflow: hidden;
 }
