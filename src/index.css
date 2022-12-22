@@ -14,9 +14,9 @@
   --orange:#FF8000;
   --orange-text: #FF8000;
   --dark-light: #181818;
-  --dark: #F3E2A9;
+  --dark: #F3E2A9;  
   --light: #ffffff;
-  --green: #298A08;
+  --green: #F6E3CE;
 }
 html {
   scroll-behavior: smooth;
@@ -159,7 +159,7 @@ header .mobile-links {
   height: 100%;
   top: 0;
   bottom: 0;
-  background: var(--dark);
+  background: var(--green);
   width: 50%;
   z-index: -1;
 }
