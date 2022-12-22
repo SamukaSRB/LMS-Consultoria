@@ -22,12 +22,12 @@ function Header() {
 
   return (
     <header className={`${stickyClass}`}>
-      <div className="header-inner">   
-      <div className="header-img">
-            <img src="/banner.png" alt="" />
-          </div> 
-        <span className="logo"></span>     
-            
+      <div className="header-inner"> 
+
+      <div className="logo-header">
+        <img src="/logo.png" alt="" />
+      </div>
+     
          
         <div className="links">
           <a className="link" href="#">
