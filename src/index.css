@@ -10,13 +10,13 @@
 :root {
   --red: #111;
   --red-dark: #0B173B;
-  --red-text: #0040FF;
+  --red-text: #ffffff;
   --orange:#FF8000;
   --orange-text: #FF8000;
   --dark-light: #181818;
   --dark: #F3E2A9;  
   --light: #ffffff;
-  --green: #F6E3CE;
+  --green: #32CD32;
 }
 html {
   scroll-behavior: smooth;
@@ -46,6 +46,7 @@ img {
   border-radius: 17px;
   width: 100%;
 }
+
 header {
   height: 100px;
 }
@@ -161,7 +162,6 @@ header .mobile-links {
   width: 50%;
   z-index: -1;
 }
-
 .services,
 .experiences,
 .portfolios {
