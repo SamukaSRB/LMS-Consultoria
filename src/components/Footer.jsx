@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <span className="logo">LMS.Consultoria</span>
+        <span className="logo">LM.Consultoria</span>
         <div className="links">
           <a href="#">
             <i className="fab fa-facebook"></i>
