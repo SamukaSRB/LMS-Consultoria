@@ -25,7 +25,7 @@ function Header() {
       <div className="header-inner"> 
 
       <div className="logo-header">
-        <img src="/logo.png" alt="" />
+        <img src="/logo20.jpg" alt="" />
       </div>
      
          
