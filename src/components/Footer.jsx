@@ -19,7 +19,7 @@ function Footer() {
         </div>
         <p className="copyright">
           <i className="fas fa-heart"></i>
-          Created By LMS-Consultoria
+          Created By LM-Consultoria
         </p>
       </div>
     </footer>
