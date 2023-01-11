@@ -5,7 +5,7 @@ function ServicesExperience() {
     {
       icon: "fa-paintbrush",
       title: "Curriculos",
-      desc: "Para começar, é importante saber o que você quer em termos de carreira. Você precisa descobrir o que você gosta e o que te faz feliz. Depois, é preciso identificar os campos de atuação que você quer se dedicar. Por fim, é importante escolher os cursos e programas de ensino que estão relacionados a esses campos de atuação.",
+      desc: "Envie seu currículo atualizado e em PDF para nós.",
       active: false,
     },
     {

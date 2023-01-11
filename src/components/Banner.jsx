@@ -12,7 +12,7 @@ function Banner() {
           <div className="banner-content">
             <h6>Olá, Seja bem vindo.</h6>
             <h3>Sua consultoria de RH </h3>
-            <p>LM-Consultoria RH é uma empresa especializada em soluções de gestão de RH.</p>
+            <p>"Olá, somos do grupo LM Consultoria de Recursos Humanos. Como consultoria especializada em recursos humanos, nosso objetivo é ajudar as empresas a gerenciar suas equipes de trabalho de maneira eficaz e eficiente. Oferecemos uma variedade de serviços, incluindo recrutamento e seleção, gestão de desempenho, treinamento e desenvolvimento, e soluções de benefícios. Acreditamos que um ambiente de trabalho saudável e positivo é fundamental para o sucesso de qualquer negócio, e trabalhamos diligentemente para ajudar as empresas a criar esse tipo de ambiente. Obrigado por considerar o LM Consultoria de Recursos Humanos para suas necessidades de gerenciamento de equipe.".</p>
             <p>Atua nos segmentos de Recrutamento e Seleção, Gestão de Pessoal,Desenvolvimento de Talentos, Orientação e Treinamento, Saúde e Segurança no Trabalho.</p>
             <a className="btn" href="#vagas">
               Sobre

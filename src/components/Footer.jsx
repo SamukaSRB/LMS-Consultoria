@@ -7,13 +7,16 @@ function Footer() {
       <div className="container">
         <span className="logo">LM.Consultoria</span>
         <div className="links">
-          <a href="#">
+          <a href="https://www.facebook.com/profile.php?id=100089032914114">
             <i className="fab fa-facebook"></i>
           </a>
-          <a href="https://www.linkedin.com/in/leidiane-mota-silva-94684817b/">
+          <a href="https://www.linkedin.com/company/91718519/admin/">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="#">
+           <a href="https://www.instagram.com/lmconsultoriar/">
+            <i className="fa-brands fa-instagram" ></i>
+          </a>
+          <a href="https://web.whatsapp.com/">
             <i className="fa-brands fa-whatsapp" ></i>
           </a>
         </div>
