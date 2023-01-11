@@ -275,7 +275,8 @@ header .mobile-links {
   padding: 100px 0px;
 }
 .vagas .btn-info {
-  margin-left: 169px;
+  margin-left: 181px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -318,7 +319,7 @@ header .mobile-links {
   max-width: calc(50% - 10px);
   width: 100%;
   margin-bottom: 30px;
-  padding: 70px;
+  padding: 20px;
 }
 .vagas .img-container {
   width: 100%;

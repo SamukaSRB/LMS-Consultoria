@@ -5,28 +5,150 @@ import { useState } from "react";
 function Vagas() {
   const [vagas] = useState([
     {
-      title: "Cargo: Assessor de Vendas",
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
       subtitle: "Descrição:",//Nao mexer
-      desc:  "Empresa pioneira no segmento de Atacarejo de Materiais de Construção do Brasil, busca Assessor de Vendas.",
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
       subtitle2:"Requisitos:",//Não mexer 
-      req:   "Nível: Superior Cursando | Curso: Química, Engenharia elétrica, Eletrônica.Obs. Superior cursando ou curso técnico como Senai, os profissional que tiveram na graduação não é necessário possui experiência prévia em vendas. Categoria B*",
-      subtitle3:"Tipo de Contratação:",//Não mexer
-      tipo:   "Existem dois turnos (Manhã 07h às 14h e tarde 14h às 21h)Trabalho (6x1) com um fim de semana inteiro por mês. LOCALIZAÇÃO:A loja fica na região da Mooca, próximo a estação Mooca de trem, de fácil acesso para quem está próximo a CPTM e estação Barra funda da linha vermelha de metrô.Tipo de contratação sera regido pela CLT",
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
       gLink: "",//Colocar Link da vaga
       lLink: "",//Colcoar Link de email
       
     },
     {
-      title: "Cargo: Analista de Mídias Sociais Pleno",
-      subtitle: "Descrição:",//Não mexer
-      desc:  "Empresa do segmento imobiliário com foco em desenvolvimento de empreendimentos de médio e alto padrão busca por uma Analista de Mídias Sociais.",
-      subtitle2:"Requisitos:",//Não mexer
-      req:   "- Domínio das ferramentas para postagem;- Pessoa integrada nas novidades e trends de sucessos atuais, constantemente atualizada nas notícias.- Ótima redação e criatividade para texto.- Conhecimento em Meta Ads e Google Ads;- Gestão de contratos.",
-      subtitle3:"Tipo de Contratação:",//Não mexer
-      tipo:   "O trabalho é 100% presencial na zona leste de São Paulo.Salário: A combinar.A contratação e no modelo CLT.",
-      gLink: "lmsconsultoriastz@gmail.com",
-      lLink: "",
-    },   
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },  
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+    {
+      title: "Cargo: Analista de controladoria da informação Pleno ou Sênior (100% remoto)",
+      subtitle: "Descrição:",//Nao mexer
+      desc:  "Marca internacional da companhia de seguros estadunidense, com mais de 40 anos de mercado.Consolidada como uma das maiores seguradoras do país, tem foco em oferecer a melhor experiência para seus clientes e segurados. Nos últimos anos, a companhia alcançou grandes conquistas rumo a este objetivo",
+      subtitle2:"Requisitos:",//Não mexer 
+      req:   "Formação Superior Completo -Conhecimentos em tecnologias e ferramentas de segurança como: Cloud, IDP, SIEM, WAF, Firewall, IPS/IDS, DLP, Proxy, etc - Experiência em desenvolvimento seguro de sistemas, SDLC, De SecOps, OWASP TOP 10- SDLC, SAST, DAST, IAST, RASP - Experiência em ferramentas de pentest e scan de vulnerabilidades em devices, servidores e aplicações (Acunetix, Burp Suite, Nessus, Qualys, Kali Linux, etc)- Alguma certificação relevante para a vaga (CEH, OSCE, OSWE, GPEN, OSCP, Pentest, etc)",
+      subtitle3:"",//Não mexer
+      tipo:   "",
+      gLink: "",//Colocar Link da vaga
+      lLink: "",//Colcoar Link de email
+      
+    },
+
     
   ]);
   return (
@@ -47,7 +169,7 @@ function Vagas() {
               <p></p>  
               <div className="btn-info">          
                 <a
-                  href="lmsconsultoriastz@gmail.com"
+                  href="https://mail.google.com/mail/u/2/#inbox"
                   target="_blank"
                   className="btn"
                   rel="noreferrer"
