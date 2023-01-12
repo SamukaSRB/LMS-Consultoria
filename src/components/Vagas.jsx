@@ -3,7 +3,44 @@ import React from "react";
 import { useState } from "react";
 
 function Vagas() {
-  const [vagas] = useState([
+  const [vagas] = useState([ 
+    {
+      title: "Cargo:Mecânico de Geometria e Balanceamento/SC",
+      // subtitle: " ",//Nao mexer
+      // desc:  "",
+      // subtitle2:"",//Não mexer 
+      // req:   "",
+      // subtitle3:"",//Não mexer
+      // tipo:   "",
+      // gLink: "",//Colocar Link da vaga
+      // lLink: "",//Colcoar Link de email
+      
+    },
+ {
+    title: "Cargo: (Pessoas com deficiência) Empacotador Localidade Maringá/PR",
+    // subtitle: " ",//Nao mexer
+    // desc:  "",
+    // subtitle2:"",//Não mexer 
+    // req:   "",
+    // subtitle3:"",//Não mexer
+    // tipo:   "",
+    // gLink: "",//Colocar Link da vaga
+    // lLink: "",//Colcoar Link de email
+    
+  },
+  
+    {
+      title: "Cargo: Vendedor Externo (pessoas com deficiência)",
+      // subtitle: " ",//Nao mexer
+      // desc:  "",
+      // subtitle2:"",//Não mexer 
+      // req:   "",
+      // subtitle3:"",//Não mexer
+      // tipo:   "",
+      // gLink: "",//Colocar Link da vaga
+      // lLink: "",//Colcoar Link de email
+      
+    },
     {
       title: "Cargo: Analista de controladoria da informação",
       // subtitle: " ",//Nao mexer
