@@ -17,6 +17,7 @@
   --dark: #F3E2A9;  
   --light: #ffffff;
   --green: #32CD32;
+  --green-text: #3CB371;
 }
 html {
   scroll-behavior: smooth;
@@ -294,14 +295,14 @@ header .mobile-links {
   height: 50px;
   background: linear-gradient(
     to right,
-    var(--orange) 0%,
-    var(--orange) 21%,
-    var(--orange-text) 100%
+    var(--green-text) 0%,
+    var(--green-text) 21%,
+    var(--green-text) 100%
   );
   text-transform: uppercase;
-  border: 1px solid var(--red-dark);
+  border: 1px solid var(--green-text);
   font-weight: 600;
-  color: #111;
+  color: #fff;
 }
 
 .vagas .btn-info .btn:hover {
